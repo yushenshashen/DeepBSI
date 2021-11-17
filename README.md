@@ -24,19 +24,19 @@ python deepBSI_binding_site.py
 python deeBSI_binding_intensity.py    
 The arguments of two scripts are the same, and some of the them are listed here.
 
-|tf_name, |CTCF, |The TF you are interest.|
+|Argument|Default|Description|
 |---|---|----|
-|target_cell, |A549, |The cell you are interest.|
+| tf_name|  CTCF|  The TF you are interest. |
+| target_cell|  A549|  The cell you are interest. |
+| cross_cells|  GM12878|  The ChIP-seq data in other cells of the same TF. |
+| train_chroms|  chr19|  The chroms used to train (chromX and chrom1-22) |
+| valid_chroms|  chr22|  The chroms used to valid (chromX and chrom1-22) |
+| test_chroms|  chr21|  The chroms used to test in general use(chromX and chrom1-22) |
+| data_dir|  ../data/|  The fold contain TF ChIP-seq data. (1) Narrow peak(bed). (2) broad peak(bed) and signal  |values(bigwig)
+| output_dir|  ../DeepBSI_output_binding_site/|  The output dir. |
+| ref_genome_fa|  ../genomes/hg19_chr19_chr21_chr22.fa|  The reference genome of human. |
+| ref_genome_size|  ../genomes/hg19.autoX.chrom.sizes|  The size of human reference genome.) |
 
-
-cross_cells, GM12878, The ChIP-seq data in other cells of the same TF.
-train_chroms, chr19, The chroms used to train (chromX and chrom1-22)
-valid_chroms, chr22, The chroms used to valid (chromX and chrom1-22)
-test_chroms, chr21, The chroms used to test in general use(chromX and chrom1-22)
-data_dir, ../data/, The fold contain TF ChIP-seq data. (1) Narrow peak(bed). (2) broad peak(bed) and signal values(bigwig)
-output_dir, ../DeepBSI_output_binding_site/, The output dir.
-ref_genome_fa, ../genomes/hg19_chr19_chr21_chr22.fa, The reference genome of human.
-ref_genome_size, ../genomes/hg19.autoX.chrom.sizes, The size of human reference genome.)
 
 
 ## Reference
