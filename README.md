@@ -24,8 +24,8 @@ python deepBSI_binding_site.py
 python deeBSI_binding_intensity.py    
 The arguments of two scripts are the same, and some of the them are listed here.
 
-tf_name, CTCF, The TF you are interest.
-target_cell, A549, The cell you are interest.
+|tf_name, |CTCF, |The TF you are interest.|
+|target_cell, |A549, |The cell you are interest.
 cross_cells, GM12878, The ChIP-seq data in other cells of the same TF.
 train_chroms, chr19, The chroms used to train (chromX and chrom1-22)
 valid_chroms, chr22, The chroms used to valid (chromX and chrom1-22)
