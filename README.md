@@ -8,20 +8,20 @@ The simplified diagram of the framework DeepBSI.
 ## Requirements
 Python 3.8 or higher  
 pybedtools 0.8.2  
-pyfasta 0.5.2 
-pyBigWig 0.3.18 
-tensorflow 2.4.1  
-keras 2.4.3 
+pyfasta 0.5.2   
+pyBigWig 0.3.18   
+tensorflow 2.4.1    
+keras 2.4.3  
 
 ## Datasets
-1. The TF ChIP-seq datasets
+1. The TF ChIP-seq datasets   
 The 10 TF ChIP-seq data cross cells were all downloaded from ENCODE. You can download from ENCODE through the ID directly. We provide all of the links in file data/datasets_links.txt. To train the model, we put the data of TF CTCF in cells A549 and GM12878 in the data folder.
-2. The reference genome
+2. The reference genome     
 The human reference genome and their sizes of each chromosomes can be downloaded from UCSC (http://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/). We only provide three chromosomes (ch19, chr21, chr22) in the data folder.
 
 ## Training
-python deepBSI_binding_site.py
-python deeBSI_binding_intensity.py
+python deepBSI_binding_site.py    
+python deeBSI_binding_intensity.py    
 The arguments of two scripts are the same, and some of the them are listed here.
 
 tf_name, CTCF, The TF you are interest.
