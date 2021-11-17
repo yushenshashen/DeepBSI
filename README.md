@@ -1,6 +1,6 @@
 # DeepBSI
 
-This is the implementation code of DeepBSI.      
+This is the implementation code of DeepBSI, a multimodal deep learning framework for predicting the transcription factor binding site and intensity.   
 
 
 ## Requirements
