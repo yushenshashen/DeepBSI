@@ -1,9 +1,6 @@
 # DeepBSI
 
-This is the implementation code of DeepBSI.      
-
-The simplified diagram of the framework DeepBSI.
-<img width="883" alt="屏幕快照 2021-11-01 下午2 57 31" src="https://user-images.githubusercontent.com/7290698/139633484-b0700273-3367-41f1-8bc7-8a5503667b0c.png">
+This is the implementation code of DeepBSI.     
 
 ## Requirements
 Python 3.8 or higher  
@@ -34,8 +31,8 @@ The arguments of two scripts are the same, and some of the them are listed here.
 | test_chroms|  chr21|  The chroms used to test in general use(chromX and chrom1-22) |
 | data_dir|  ../data/|  The fold contain TF ChIP-seq data. (1) Narrow peak(bed). (2) broad peak(bed) and signal  |values(bigwig)
 | output_dir|  ../DeepBSI_output_binding_site/|  The output dir. |
-| ref_genome_fa|  ../genomes/hg19_chr19_chr21_chr22.fa|  The reference genome of human. |
-| ref_genome_size|  ../genomes/hg19.autoX.chrom.sizes|  The size of human reference genome.) |
+| ref_genome_fa|  ../genomes/hg19_part.fa|  The reference genome of human(chr19, chr21, chr22). |
+| ref_genome_size|  ../genomes/hg19.chrom.sizes|  The size of human reference genome.) |
 
 
 
