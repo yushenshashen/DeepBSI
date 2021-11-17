@@ -41,8 +41,7 @@ The arguments of two scripts are the same, and some of the them are listed here.
 
 ## Reference
 Please cite our work if you find our code/paper is useful to your work.
-
-
+```
 void main()
 {   
     @article{Zhang, 
@@ -56,5 +55,5 @@ void main()
     pages={} 
     }
 }
-
+```
 
