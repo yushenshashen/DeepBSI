@@ -1,6 +1,6 @@
 # DeepBSI
 
-This is the implementation code of DeepBSI. 
+This is the implementation code of DeepBSI.      
 Peng Zhang, Shikui Tu. DeepBSI: a multimodal deep learning framework for predicting the transcription factor binding site and intensity. BIBM2021.
 
 
