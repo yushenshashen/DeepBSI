@@ -9,9 +9,7 @@ The simplified diagram of the framework DeepBSI.
 
 ## Requirements
 Python 3.8 or higher
-
 pybedtools 0.8.2
-
 pyfasta 0.5.2
 pyBigWig 0.3.18
 tensorflow 2.4.1
