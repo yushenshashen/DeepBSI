@@ -41,16 +41,16 @@ Please cite our work if you find our code/paper is useful to your work.
 
 void main()
 {   
-@article{Zhang, 
-title={DeepBSI: a multimodal deep learning framework for predicting the transcription factor binding site and intensity}, 
-author={Peng Zhang, Shikui Tu}, 
-journal={BIBM}, 
-volume={}, 
-number={}, 
-year={2021}, 
-month={}, 
-pages={} 
-}
+  @article{Zhang, 
+  title={DeepBSI: a multimodal deep learning framework for predicting the transcription factor binding site and intensity}, 
+  author={Peng Zhang, Shikui Tu}, 
+  journal={BIBM}, 
+  volume={}, 
+  number={}, 
+  year={2021}, 
+  month={}, 
+  pages={} 
+  }
 }
 
 
