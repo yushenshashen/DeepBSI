@@ -14,6 +14,8 @@ keras 2.4.3
 ## Datasets
 1. The TF ChIP-seq datasets   
 The 10 TF ChIP-seq data cross cells were all downloaded from ENCODE. You can download from ENCODE through the ID directly. We provide all of the links in file data/datasets_links.txt. To train the model, we put the data of TF CTCF in cells A549 and GM12878 in the data folder.
+
+
 |TF | cell | type | links |
 |---|---|---|---|
 |CTCF | A549 | broadPeak | https://www.encodeproject.org/files/ENCFF001XLL/@@download/ENCFF001XLL.bed.gz|
