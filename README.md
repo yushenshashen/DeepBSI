@@ -1,7 +1,8 @@
 # DeepBSI
 
 This is the implementation code of DeepBSI, a multimodal deep learning framework for predicting the transcription factor binding site and intensity.   
-[fig1.pdf](https://github.com/yushenshashen/DeepBSI/files/7569704/fig1.pdf)
+<img width="686" alt="屏幕快照 2021-11-19 下午6 49 56" src="https://user-images.githubusercontent.com/7290698/142610659-590c003c-d73c-4d6c-ab30-5a343f47a650.png">
+
 
 
 ## Requirements
